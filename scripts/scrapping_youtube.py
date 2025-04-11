@@ -8,7 +8,7 @@ import pickle
 import os
 
 # Clé API YouTube (remplacer par votre propre clé)  
-dev = "AIzaSyDrJDpcCdLEYXyGeZyF6-OzgNnmjDejPi4"
+dev = "ajouter votre clé"
 
 def youtube_search(query, max_results=100, api_key=dev):
     youtube = build('youtube', 'v3', developerKey=api_key)
@@ -117,14 +117,11 @@ def main(tech_name, save_folder):
         # Ajout délai pour éviter de dépasser les quotas de l'API
         time.sleep(1)
 
-    # Crée un DataFrame avec les commentaires collectés
     if video_comments:
         df_bis = pd.concat(video_comments)
 
-        # Sauvegarder les commentaires au format pickle
         save_comments_to_pickle(df_bis, save_folder, tech_name)
 
-        # Affiche le nombre de vidéos et de commentaires traités
         print(f"[Succès] {num_videos} vidéos traitées et {num_comments} commentaires récupérés.")
     else:
         print("[Avertissement] Aucun commentaire récupéré.")
