@@ -1,4 +1,4 @@
-# Analyse de Sentiment d’Articles de presse (EuroPresse) sur des tehcnologies bas-carbone
+# Analyse de Sentiment d’Articles de presse (EuroPress) sur des tehcnologies bas-carbone
 
 Ce projet intervient dans le cadre du sujet de recherche suivant : “Increase social acceptability of nuclear fusion, agrivoltaics and offshore wind through national support programmes”. Ici nous avons pour but à analyser les **sentiments exprimés dans la presse** à propos de ces technologies.  
 L’objectif est de mesurer et visualiser l’évolution des sentiments associés à ces thématiques dans le temps et selon différentes méthodes. 
@@ -55,12 +55,21 @@ L’objectif est de mesurer et visualiser l’évolution des sentiments associé
    - Calculer un score de sentiment mixte en prenant la moyenne des sentiments du titre et du corps de l'article.
    
 ### 6. **Visualisation des Sentiments**
-   - Générer des **histogrammes** et des **boîtes à moustaches** pour visualiser la répartition des sentiments (très négatif, négatif, neutre, positif, très positif) pour chaque type d'analyse (corps, titre, mixte).
-   - Utiliser des **couleurs** différentes pour chaque catégorie de sentiment et s'assurer d'un mappage clair des catégories.
+   - Générer des **histogrammes** et des visuels pour la répartition des sentiments (très négatif, négatif, neutre, positif, très positif) pour chaque type d'analyse (corps, titre, mixte).
    
 ### 7. **Visualisation de l'évolution des sentiments au cours du temps**
    - Traiter la **date** des articles et l'analyser par rapport à l'évolution des sentiments.
    - Tracer l’évolution du **score de sentiment** au fil du temps à l’aide de graphiques, incluant une **ligne moyenne** pour dégager la tendance générale.
-   - Utiliser des **points de données** pour chaque article en fonction de sa date et de son score de sentiment.
+
+---
+
+## Contact
+
+Si vous avez des questions ou des suggestions concernant ce projet, n'hésitez pas à me contacter :
+
+- **Nom** : TEMPLE VALENTIN
+- **Email** : valentintpl@gmail.com
+
+Je serai ravi de discuter avec vous de ce projet ou de répondre à vos questions !
 
 ---
