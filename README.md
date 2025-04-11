@@ -1,4 +1,4 @@
-# Analyse de Sentiment d’Articles de presse (EuroPress) sur des tehcnologies bas-carbone
+# Analyse de Sentiment d’articles de presse (EuroPress) sur des tehcnologies bas-carbone
 
 Ce projet intervient dans le cadre du sujet de recherche suivant : “Increase social acceptability of nuclear fusion, agrivoltaics and offshore wind through national support programmes”. Ici nous avons pour but à analyser les **sentiments exprimés dans la presse** à propos de ces technologies.  
 L’objectif est de mesurer et visualiser l’évolution des sentiments associés à ces thématiques dans le temps et selon différentes méthodes. 
@@ -30,6 +30,14 @@ L’objectif est de mesurer et visualiser l’évolution des sentiments associé
   - `dateutil`
 
 ---
+
+## Documentation
+
+Dans le dossier `docs`, vous trouverez la documentation détaillée sur chaque fonction créée dans les scripts du projet. Cela inclut des explications sur leur fonctionnement, leurs paramètres et leur utilisation. 
+
+
+---
+
 
 ## Etapes du projet 
 
