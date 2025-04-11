@@ -1,3 +1,4 @@
+# scrapping youtube comments
 import nltk
 import pandas as pd
 from googleapiclient.discovery import build
@@ -129,7 +130,7 @@ def main(tech_name, save_folder):
         print("[Avertissement] Aucun commentaire récupéré.")
 
 if __name__ == "__main__":
-    tech_name = "AGRI"  # Remplacer par la technologie souhaitée
-    save_folder = "data/ytb_comments/"  # Dossier où les commentaires seront sauvegardés
+    tech_name = "agrivoltaique"  # Remplacer par la technologie souhaitée
+    save_folder = "data/ytb_comments"  # Dossier où les commentaires seront sauvegardés
 
     main(tech_name, save_folder)

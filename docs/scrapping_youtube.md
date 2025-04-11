@@ -18,3 +18,6 @@ pip install google-api-python-client
 ```tech_name``` : Remplacez cette variable par le nom de la technologie pour rechercher les vidéos associées (par exemple "fusion nucléaire").
 ```save_folder``` : Indiquez le dossier où vous souhaitez sauvegarder le fichier pickle contenant les commentaires
 
+Le script crée un fichier .pkl dans le dossier spécifié, contenant un DataFrame de pandas avec le titre de la vidéo, les commentaires, les auteurs, les dates de publication et les "like counts".
+
+On retrouve nos fichiers .pkl créés dans le repo ```/data```, il est possible de les visualiser en utiliser le notebook ```outils.ipynb``` dans le repo ```/scripts```.
