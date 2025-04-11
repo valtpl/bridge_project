@@ -1,4 +1,4 @@
-# Documentation d'utilisation : `extract_articles.py`
+# Notice d'utilisation : `extract_articles.py`
 
 ## 1. Description
 Le fichier `extract_articles.py` permet d'extraire des informations spécifiques depuis les fichiers HTML d'europress, notamment :

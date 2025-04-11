@@ -84,8 +84,7 @@ def cluster_and_plot(words, vectors, method='hdbscan', n_clusters=3, html_out="p
 
 
 if __name__ == "__main__":
-    
-    corpus = load_corpus("data/datasets/FUSION_articles.pkl") #modif le corpus en fonction de la tehcno souhaitée (FUSION/AGRI/EOLIEN)
+    corpus = load_corpus("data/datasets/EOLIEN_articles.pkl") #modif le corpus en fonction de la tehcno souhaitée (FUSION/AGRI/EOLIEN)
     tokenized = [clean_text(article) for article in corpus]
 
     print("Corpus nettoyé, entraînement du modèle Word2Vec...")
@@ -97,4 +96,4 @@ if __name__ == "__main__":
     print("Clustering et visualisation...")
 
     # modifier le nom de fichier de sortie en fonction de la techno etudiée
-    cluster_and_plot(words, reduced_vectors, method='hdbscan', html_out="output/projection_thematique/FUSION_word_projection_hdbscan.html")
+    cluster_and_plot(words, reduced_vectors, method='hdbscan', html_out="output/projection_thematique/EOLIEN_word_projection_hdbscan.html")
